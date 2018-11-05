@@ -138,7 +138,7 @@ shinyApp(
       
       div(
         id = "adminPanel",
-        h2("Previous responses (only visible to admins)"),
+        h2("Responses"),
         downloadButton("downloadBtn", "Download responses"), br(), br(),
         DT::dataTableOutput("responsesTable")
       )

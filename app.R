@@ -138,7 +138,7 @@ shinyApp(
       
       div(
         id = "adminPanel",
-        h2("Responses / Emotions"),
+        h2("Responses / Emotions / Thoughts"),
         downloadButton("downloadBtn", "Download responses"), br(), br(),
         DT::dataTableOutput("responsesTable")
       )
